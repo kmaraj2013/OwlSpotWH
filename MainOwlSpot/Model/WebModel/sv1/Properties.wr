@@ -1,0 +1,17 @@
+<SiteView xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv1" name="MainPage" landmarks="sv1#area1 sv1#area2 sv1#area3" homePage="sv1#area1#page1">
+  <OperationUnits>
+    <QueryUnit gr:x="630" gr:y="410" id="sv1#qu1" name="List of Problems" mode="select" language="SQL" db="db1">
+      <QueryText xml:space="preserve">select *
+from problems;</QueryText>
+      <QueryOutput id="sv1#qu1#qo1" name="ID" type="integer"/>
+      <QueryOutput id="sv1#qu1#qo2" name="First Name" type="string"/>
+      <QueryOutput id="sv1#qu1#qo3" name="Last Name" type="string"/>
+      <QueryOutput id="sv1#qu1#qo4" name="Email" type="string"/>
+      <QueryOutput id="sv1#qu1#qo5" name="Z-Number" type="string"/>
+      <QueryOutput id="sv1#qu1#qo6" name="Date" type="date"/>
+      <QueryOutput id="sv1#qu1#qo7" name="Incident Type" type="string"/>
+      <QueryOutput id="sv1#qu1#qo8" name="Description" type="string"/>
+      <QueryOutput id="sv1#qu1#qo9" name="Image" type="blob"/>
+    </QueryUnit>
+  </OperationUnits>
+</SiteView>

@@ -1,0 +1,9 @@
+<Area xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="580" gr:y="45" id="sv1#area2" name="Post Problem" landmark="true" defaultPage="sv1#area2#page4">
+  <OperationUnits>
+    <CreateUnit gr:x="340" gr:y="10" id="sv1#area2#cru2" name="Post Problem" entity="ent2" linkOrder="sv1#area2#cru2#ln11">
+      <Link id="sv1#area2#cru2#ln11" name="Flow11" to="sv1#area2#page4#inu2" type="transport" validate="true">
+        <LinkParameter id="sv1#area2#cru2#ln11#par14" name="oid_current oid" source="ent2#att6Array" target="sv1#area2#page4#inu2.current.ent2#att6"/>
+      </Link>
+    </CreateUnit>
+  </OperationUnits>
+</Area>
